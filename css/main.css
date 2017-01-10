@@ -1,4 +1,43 @@
 body {
-  background-color: #EB5F0A; }
+  width: 100%;
+  height: 100%;
+  background-color: #eb5f0a; }
+  body h1, body h2, body p, body li {
+    font-family: "Lato"; }
+
+.orange-box {
+  text-align: center; }
+  .orange-box h1 {
+    font-size: 95.03px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    line-height: 60px; }
+  .orange-box h2 {
+    font-size: 34.92px;
+    margin-top: 0;
+    color: #FFFFFF;
+    line-height: 40px;
+    margin-bottom: 50px; }
+    .orange-box h2 span {
+      font-family: "Lato Black";
+      font-size: 28.77px;
+      line-height: 30.66px;
+      color: #FFFFFF; }
+  .orange-box li {
+    font-size: 17px;
+    line-height: auto;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 20px; }
+
+.orange-fold {
+  position: absolute;
+  top: 0;
+  left: 85px;
+  color: black;
+  height: 800px;
+  border-bottom: 200px solid transparent;
+  border-left: 500px solid orange; }
 
 /*# sourceMappingURL=main.css.map */
